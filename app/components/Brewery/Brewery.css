@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.Brewery{
+  font-family: 'Varela Round';
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 1px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  line-height: 3em;
+  border-radius: 7px;
+  background-color: #563d7c;
+	box-shadow: 0 2px 3px #ccc;
+  perspective: 1000px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.Type{
+  text-align: center;
+  font-size: 13px;
+  color:#ffffff;
+}
+
+.Title {
+  color:#ffffff;
+  text-decoration: none;
+  width:100%;
+}
+
+.Brewery span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Brewery span:after {
+  content: '\00bb';
+  color:#ffffff;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Brewery:hover span {
+  padding-right: 25px;
+}
+
+.Brewery:hover span:after {
+  opacity: 1;
+  right: 0;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.Search{
+  width: 80%;
+  font-family: 'Varela Round';
+  position: relative;
+  align-self: center;
+  margin: 100px;
+  display: flex;
+  border: 3px solid #563d7c;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+}
+
+span, ul, .roman{
+  font-family: 'Varela Round';
+  position: relative;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}

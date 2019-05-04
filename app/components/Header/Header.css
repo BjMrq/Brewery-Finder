@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+
+.Header {
+  font-family: 'Permanent Marker';
+  color: rgb(255, 255, 255) ;
+  background-color: #563d7c;
+  border-radius: 0 ;
+  padding: 4rem 2rem;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.10909;
+  text-align: center;
+}
+
+body{
+  margin: 0px;
+}
+
+.Nav{
+  font-family: 'Permanent Marker';
+  display: flex;
+  box-sizing: border-box;
+  font-weight: 400;
+  background-color: #563d7c;
+  line-height: 1.5;
+  font-size: 0.7em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-flow: row nowrap;
+  z-index: 6030;
+  justify-content: flex-start;
+  padding: 0.5rem 1rem;
+}
+
+ul {
+  margin: 2px;
+  padding: 8px;
+}
+
+.NavLink{
+  font-family: 'Permanent Marker';
+}
+
+a {
+  color:#ffffff;
+  text-decoration: none;
+  padding:20px;
+}
+
+.Nav a:hover,
+.Nav a:active{
+  color: #d8d8d8;
+  cursor:pointer;
+}
+
+hr {
+  width: 38%;
+  border-top: 2px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+}
