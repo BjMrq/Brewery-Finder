@@ -6,12 +6,8 @@
   "main": "index.js",
   "author": "Benjamin",
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm start"
+    "start": "webpack-dev-server --progress",
+    "format": "prettier-eslint --write 'app/**/*.js'"
   },
   "engines": {
     "node": ">=8"
