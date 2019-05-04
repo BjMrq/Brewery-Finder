@@ -1,13 +1,17 @@
 {
-  "name": "osedea-coding-challenge",
+  "name": "Brewery finder",
   "version": "1.0.0",
   "private": true,
-  "description": "Osedea coding challenge",
+  "description": "An app to find breweries",
   "main": "index.js",
-  "author": "Osedea",
+  "author": "Benjamin",
   "scripts": {
-    "start": "webpack-dev-server --env=development --progress",
-    "format": "prettier-eslint --write 'app/**/*.js'"
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm start"
   },
   "engines": {
     "node": ">=8"
