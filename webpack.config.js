@@ -23,12 +23,12 @@ module.exports = {
 
     output: {
         path: PATHS.build,
-        publicPath: '/',
+        publicPath: '/public/',
         filename: '[name].js',
         chunkFilename: '[name].chunk.js',
     },
 
-    devtool: 'cheap-module-source-map',
+    devtool: 'source-map',
 
     resolve: {
         modules: [
